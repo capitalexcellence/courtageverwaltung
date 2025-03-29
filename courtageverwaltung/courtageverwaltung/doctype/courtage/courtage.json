@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-27 21:49:13.640636",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gesellschaft",
+  "art",
+  "betrag",
+  "beschreibung"
+ ],
+ "fields": [
+  {
+   "fieldname": "gesellschaft",
+   "fieldtype": "Link",
+   "label": "Gesellschaft",
+   "options": "Versicherungsgesellschaft"
+  },
+  {
+   "fieldname": "art",
+   "fieldtype": "Select",
+   "label": "Art",
+   "options": "Abschlusscourtage\nBestandscourtage"
+  },
+  {
+   "fieldname": "betrag",
+   "fieldtype": "Currency",
+   "label": "Betrag"
+  },
+  {
+   "fieldname": "beschreibung",
+   "fieldtype": "Text",
+   "label": "Beschreibung"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-03-27 22:07:50.865464",
+ "modified_by": "Administrator",
+ "module": "Courtageverwaltung",
+ "name": "Courtage",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
