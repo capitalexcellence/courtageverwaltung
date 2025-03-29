@@ -8,7 +8,11 @@
  "field_order": [
   "name1",
   "column_break_iemk",
-  "art"
+  "art",
+  "konten_section",
+  "kontokorrent",
+  "column_break_eyhd",
+  "stornoreserve"
  ],
  "fields": [
   {
@@ -29,12 +33,33 @@
    "label": "Name",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "konten_section",
+   "fieldtype": "Section Break",
+   "label": "Konten"
+  },
+  {
+   "fieldname": "kontokorrent",
+   "fieldtype": "Link",
+   "label": "Kontokorrent",
+   "options": "Account"
+  },
+  {
+   "fieldname": "stornoreserve",
+   "fieldtype": "Link",
+   "label": "Stornoreserve",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_eyhd",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-28 21:35:08.919617",
+ "modified": "2025-03-29 10:51:49.370478",
  "modified_by": "Administrator",
  "module": "Courtageverwaltung",
  "name": "Versicherungsgesellschaft",
