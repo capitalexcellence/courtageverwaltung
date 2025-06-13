@@ -1,12 +1,15 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{gesellschaft} - {nummer_der_abrechnung}",
  "creation": "2025-03-27 22:09:52.896564",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "gesellschaft",
   "abrechnungsdatum",
+  "column_break_tvww",
+  "nummer_der_abrechnung",
   "courtagen_section",
   "courtagen"
  ],
@@ -32,15 +35,25 @@
    "fieldname": "abrechnungsdatum",
    "fieldtype": "Date",
    "label": "Abrechnungsdatum"
+  },
+  {
+   "fieldname": "column_break_tvww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nummer_der_abrechnung",
+   "fieldtype": "Data",
+   "label": "Nummer der Abrechnung"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-28 21:02:53.637878",
+ "modified": "2025-03-29 17:59:44.766543",
  "modified_by": "Administrator",
  "module": "Courtageverwaltung",
  "name": "Courtageabrechnung",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

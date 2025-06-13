@@ -9,7 +9,13 @@
   "gesellschaft",
   "art",
   "betrag",
-  "beschreibung"
+  "beschreibung",
+  "stornoreserve_und_vshv_section",
+  "stornoreserve",
+  "column_break_thnn",
+  "beitrag_zur_vshv",
+  "stornohaftung_section",
+  "stornohaftungszeit_in_monaten"
  ],
  "fields": [
   {
@@ -22,7 +28,7 @@
    "fieldname": "art",
    "fieldtype": "Select",
    "label": "Art",
-   "options": "Abschlusscourtage\nBestandscourtage"
+   "options": "Abschlusscourtage\nBestandscourtage\nDynamikabschlusscourtage"
   },
   {
    "fieldname": "betrag",
@@ -33,13 +39,42 @@
    "fieldname": "beschreibung",
    "fieldtype": "Text",
    "label": "Beschreibung"
+  },
+  {
+   "fieldname": "stornoreserve",
+   "fieldtype": "Percent",
+   "label": "Stornoreserve"
+  },
+  {
+   "fieldname": "beitrag_zur_vshv",
+   "fieldtype": "Currency",
+   "label": "Beitrag zur VSHV"
+  },
+  {
+   "fieldname": "stornoreserve_und_vshv_section",
+   "fieldtype": "Section Break",
+   "label": "Stornoreserve und VSHV"
+  },
+  {
+   "fieldname": "column_break_thnn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stornohaftung_section",
+   "fieldtype": "Section Break",
+   "label": "Stornohaftung"
+  },
+  {
+   "fieldname": "stornohaftungszeit_in_monaten",
+   "fieldtype": "Int",
+   "label": "Stornohaftungszeit in Monaten"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-03-27 22:07:50.865464",
+ "modified": "2025-03-29 17:49:31.000644",
  "modified_by": "Administrator",
  "module": "Courtageverwaltung",
  "name": "Courtage",
